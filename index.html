@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>JokenPô</title>
+</head>
+
+<body>
+    <section>
+        <h1>JokenPô</h1>
+        <div class="Container-controls">
+            <button class="bnt" id="rock" onclick="comparison('rock')">&#x270A;</button>
+            <button class="bnt" id="paper" onclick="comparison('paper')">&#x1F91A;</button>
+            <button class="bnt" id="scissors" onclick="comparison('scissors')">&#x270C; </button>
+        </div>
+
+        <p class="scoreboard-text" id="score-human-texto">Sua pontuação <span id="score-human" class="score">0</span></p>
+        <p class="scoreboard-text" id="score-machine-texto">Pontuação do Javi <span id="score-machine" class="score">0</span></p>
+        <p id="resultp" class="scoreboard-text"></p>
+
+
+    </section>
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>
